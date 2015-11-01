@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="i23b7pur:-lo1p3967uowj" version="2">
+	<created_date>Nov 4, 2014</created_date>
+	<modified_date>Aug 25, 2015 10:35 AM</modified_date>
+	<profile>
+		<player_name>NPC</player_name>
+		<campaign>Star Trek: Nautilus</campaign>
+		<name> N'Gav Sep</name>
+		<age>16</age>
+		<birthday>March 31</birthday>
+		<eyes>Azuis</eyes>
+		<skin>Azul</skin>
+		<handedness>Destra</handedness>
+		<height>1.6764 m</height>
+		<weight>64 kg</weight>
+		<SM>0</SM>
+		<gender>Mulher</gender>
+		<race>Humano</race>
+		<tech_level>11</tech_level>
+		<notes>NAME: Ngav Sep
+
+HOME PLANET: Bolias
+STAR FLEET RANK: Lieutenant
+ASSIGNMENT: Enginnering Officer
+USS NAUTILUS NCC 76171
+
+PLACE OF BIRTH: Arinol
+DATE OF BIRTH: 25 Spetember 2337
+PARENTS: At and Iria Sep</notes>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>480</total_points>
+	<ST>17</ST>
+	<DX>12</DX>
+	<IQ>13</IQ>
+	<HT>12</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Starfleet Officer</name>
+			<advantage version="2">
+				<name>Patron</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with 150% of PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with twice the PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: An ultra-powerful individual@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+					<cost type="points">25</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Starfleet</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A diety@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Appears almost all the time</name>
+					<cost type="multiplier">3</cost>
+					<reference>B36</reference>
+					<notes>15-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite often</name>
+					<cost type="multiplier">2</cost>
+					<reference>B36</reference>
+					<notes>12-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears fairly often</name>
+					<cost type="multiplier">1</cost>
+					<reference>B36</reference>
+					<notes>9-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite rarely</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B36</reference>
+					<notes>6-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth no more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Equipment</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>Shuttles, Phasers, Tricorders</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Highly Accessible</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Extensive social or political power@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Minimal Interventions</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Secret</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unwilling</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B74</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Favor</name>
+					<cost type="multiplier">0.2</cost>
+					<reference>B55</reference>
+				</modifier>
+				<reference>B72</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Vow</name>
+				<type>Mental</type>
+				<levels>0</levels>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<notes>Prime Directive</notes>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Duty (Starfleet)</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>FR: 6</name>
+					<cost type="points">-2</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>FR: 9</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>FR: 12</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>FR: 15</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extremely Hazardous</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Involuntary</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Nonhazardous</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B133</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Bolian</name>
+			<advantage version="2">
+				<name>Extra Hit Points</name>
+				<type>Physical</type>
+				<levels>2</levels>
+				<points_per_level>2</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Size</name>
+					<cost type="percentage">-10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B16</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>hp</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Reduced Consumption</name>
+				<type>Physical</type>
+				<levels>2</levels>
+				<points_per_level>2</points_per_level>
+				<modifier version="1">
+					<name>Cast-Iron Stomach</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Food Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Water Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<reference>B80</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Compulsive Rhetoric</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<cr>15</cr>
+				<reference>Sup32</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="2">
+			<name>Curious</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B129</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Mechanic</name>
+			<specialization>Starships</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>16</points>
+			<reference>B207</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>High-Performance Spacecraft</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Machinist</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mechanic</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Warp Drive</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>12</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at_least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="&#233;">mathematics</name>
+					<specialization compare="&#233;">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Armoury</name>
+				<specialization>Heavy Weapons</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Repair</name>
+			<specialization>Force Shields</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<specialization>Force Shields</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Repair</name>
+			<specialization>Matter Transmitters</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<specialization>Matter Transmitters</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Electronics</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>8</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at_least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="&#233;">mathematics</name>
+					<specialization compare="&#233;">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Mechanic</name>
+			<specialization>Warp Drive</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B207</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Aerospace</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Machinist</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mechanic</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Repair</name>
+			<specialization>Security</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<specialization>Security</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Repair</name>
+			<specialization>Sensors</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<specialization>Sensors</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Combat</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at_least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="&#233;">mathematics</name>
+					<specialization compare="&#233;">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<specialization>Demolition</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Starships</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at_least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="&#233;">mathematics</name>
+					<specialization compare="&#233;">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Mechanic</name>
+				<specialization>Starships</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Starship Armor</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Battlesuits</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="&#233;">Brawling</name>
+				<specialization compare="&#233;"></specialization>
+				<level compare="at_least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Wrestling</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B228</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<technique version="2" limit="4">
+			<name>Arm Lock</name>
+			<difficulty>A</difficulty>
+			<points>2</points>
+			<reference>B230</reference>
+			<default>
+				<type>Skill</type>
+				<name>Wrestling</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Federa&#231;&#227;o</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Federa&#231;&#227;o</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Mathematics</name>
+			<specialization>Applied</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B207</reference>
+			<categories>
+				<category>Natural Science</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physics</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Vacc Suit</name>
+			<tech_level>11</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Technical</category>
+			</categories>
+		</skill>
+	</skill_list>
+	<print_settings printer="Samsung-SCX-483x-5x3x-Series" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>

@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="i1xun54w:vdexo8wqx4rl" version="2">
+	<created_date>Oct 31, 2014</created_date>
+	<modified_date>Oct 31, 2014 5:41 PM</modified_date>
+	<profile>
+		<player_name>NPC</player_name>
+		<campaign>Star Trek: Nautilus</campaign>
+		<name>Shiboline MRess</name>
+		<title>Medical Officer</title>
+		<age>28</age>
+		<birthday>March 28</birthday>
+		<height>1.7018 m</height>
+		<weight>78 kg</weight>
+		<SM>0</SM>
+		<gender>Female</gender>
+		<race>Caitian</race>
+		<tech_level>11</tech_level>
+		<notes>NAME: M'Ress, Shiboline 
+HOME PLANET: Cait
+STAR FLEET RANK: Lieutenant, Junior
+ASSIGNMENT: Medical Officer
+USS NAUTILUS NCC 76171
+PLACE OF BIRTH: Cait, Cait
+DATE OF BIRTH: 22 September 2345
+PARENTS: Ringur and Shen M'Ress</notes>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>480</total_points>
+	<ST>10</ST>
+	<DX>14</DX>
+	<IQ>13</IQ>
+	<HT>12</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0.25</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Patron</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with 150% of PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with twice the PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+				<cost type="points">15</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: An ultra-powerful individual@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+				<cost type="points">25</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Starfleet</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: A diety@</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equipment</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Equipment worth no more than average starting wealth@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Equipment</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>Shuttles, Phasers, Tricorders</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Highly Accessible</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Extensive social or political power@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Minimal Interventions</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Secret</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unwilling</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B74</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Favor</name>
+				<cost type="multiplier">0.2</cost>
+				<reference>B55</reference>
+			</modifier>
+			<reference>B72</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Vow</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<notes>Prime Directive</notes>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>3</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Starfleet Officer</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Duty (Starfleet)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>FR: 6</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 9</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 12</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>FR: 15</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Extremely Hazardous</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Involuntary</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Nonhazardous</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B133</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage_container version="2" open="yes">
+			<name>Caitian</name>
+			<advantage version="2">
+				<name>Increased Dexterity</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>20</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B15</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>dx</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Night Vision</name>
+				<type>Physical</type>
+				<levels>5</levels>
+				<points_per_level>1</points_per_level>
+				<reference>B71</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Acute Taste &amp; Smell</name>
+				<type>Physical</type>
+				<levels>2</levels>
+				<points_per_level>2</points_per_level>
+				<reference>B35</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>taste_smell</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Fur</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B101</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="2">
+			<name>Talent (Healer)</name>
+			<type>Mental</type>
+			<levels>2</levels>
+			<points_per_level>10</points_per_level>
+			<reference>B90</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="&#233;">diagnosis</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">esoteric medicine</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">first aid</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">pharmacy</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">physician</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">physiology</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">psychology</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">surgery</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">veterinary</name>
+				<specialization compare="&#233;"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="&#233;">fast-draw</name>
+				<specialization compare="&#233;"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>fright_check</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Appearance</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Universal</name>
+				<cost type="percentage">25</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Off-the-Shelf Looks</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Androgynous</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Impressive</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Attractive</name>
+				<cost type="points">4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Horrific</name>
+				<cost type="points">-24</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Monstrous</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Hideous</name>
+				<cost type="points">-16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Ugly</name>
+				<cost type="points">-8</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unattractive</name>
+				<cost type="points">-4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Handsome</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Beautiful</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Handsome</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Beautiful</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Transcendent</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B21</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Lecherousness</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B142</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Easy to Read</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<modifier version="1">
+				<name>(Psionic)</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B134</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Physician</name>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>16</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-11</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Surgery</name>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>16</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="&#233;">first aid</name>
+					<specialization compare="&#233;"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="&#233;">physician</name>
+					<specialization compare="&#233;"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-12</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physiology</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Physiology</name>
+			<specialization>Human</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>3</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Medical</category>
+				<category>Natural Science</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Diagnosis</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Surgery</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Biology</name>
+			<specialization>Earthlike</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>4</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Natural Science</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Operation</name>
+			<specialization>Medical</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B189</reference>
+			<categories>
+				<category>Medical</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<specialization>Medical</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Physiology</name>
+			<specialization>Xenobiology</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>3</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Medical</category>
+				<category>Natural Science</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Diagnosis</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Surgery</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Federa&#231;&#227;o</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Federa&#231;&#227;o</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Gambling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B197</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Statistics</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Sleight of Hand</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B221</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="&#233;">Brawling</name>
+				<specialization compare="&#233;"></specialization>
+				<level compare="at_least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Judo</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/H</difficulty>
+			<points>8</points>
+			<reference>B203</reference>
+			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<technique version="2" limit="4">
+			<name>Arm Lock</name>
+			<difficulty>A</difficulty>
+			<points>4</points>
+			<reference>B230</reference>
+			<default>
+				<type>Skill</type>
+				<name>Judo</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<technique version="2" limit="5">
+			<name>Breakfall</name>
+			<difficulty>A</difficulty>
+			<points>4</points>
+			<reference>MA68</reference>
+			<default>
+				<type>Skill</type>
+				<name>Judo</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="&#233;">Judo</name>
+					<specialization compare="&#233;"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Judo Throw</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>MA75</reference>
+			<default>
+				<type>Skill</type>
+				<name>Judo</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Treinamento da Frota</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Bank</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Deep Ocean Vent</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Fresh-Water Lake</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Open Ocean</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Reef</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>River/Stream</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Tropical Lagoon</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<print_settings printer="Samsung-SCX-483x-5x3x-Series" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>

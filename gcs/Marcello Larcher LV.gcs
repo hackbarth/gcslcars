@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="hvzw05g3:-55hle2q1gwfg" version="2">
+	<created_date>Jun 3, 2014</created_date>
+	<modified_date>Jun 4, 2014 3:59 PM</modified_date>
+	<profile>
+		<player_name>Marcello Larcher</player_name>
+		<campaign>Star Trek Nautilus</campaign>
+		<name>Marcello Larcher LV</name>
+		<title>Science Officer</title>
+		<age>20</age>
+		<birthday>November 28</birthday>
+		<eyes>Grey</eyes>
+		<hair>Blond, Straight, Long</hair>
+		<skin>Dark Tan</skin>
+		<handedness>Right</handedness>
+		<height>1.778 m</height>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>11</tech_level>
+		<notes>NAME: Marcello Larcher LV
+HOME PLANET: Earth
+
+STAR FLEET RANK: Lieutenant
+ASSIGNMENT: Science Officer
+USS NAUTILUS NCC 76171
+
+PLACE OF BIRTH: Earth
+DATE OF BIRTH: 15 May 2327
+PARENTS: MArcello Larcher LIV and Beatriz Larcher</notes>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>480</total_points>
+	<ST>11</ST>
+	<DX>11</DX>
+	<IQ>15</IQ>
+	<HT>13</HT>
+	<will>0</will>
+	<perception>4</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Patron</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with 150% of PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with twice the PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+				<cost type="points">15</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: An ultra-powerful individual@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+				<cost type="points">25</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Starfleet</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: A diety@</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equipment</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Equipment worth no more than average starting wealth@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Equipment</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>Shuttles, Phasers, Tricorders</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Highly Accessible</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Extensive social or political power@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Minimal Interventions</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Secret</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unwilling</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B74</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Favor</name>
+				<cost type="multiplier">0.2</cost>
+				<reference>B55</reference>
+			</modifier>
+			<reference>B72</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Vow</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<notes>Prime Directive</notes>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>3</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Starfleet Officer</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Duty (Starfleet)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>FR: 6</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 9</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 12</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>FR: 15</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Extremely Hazardous</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Involuntary</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Nonhazardous</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B133</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Language: Vulcan</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Native</name>
+				<cost type="points">-6</cost>
+				<affects>total</affects>
+				<reference>B23</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Spoken</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Written</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<reference>B24</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Language</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="&#233;">Language Talent</name>
+					<notes compare="&#233; qualquer"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Flexibility</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B56</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="&#233;">climbing</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">escape</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount>3</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Talent (Outdoorsman)</name>
+			<type>Mental</type>
+			<levels>3</levels>
+			<points_per_level>10</points_per_level>
+			<reference>B91</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="&#233;">camouflage</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="cont&#233;m">fishing</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="cont&#233;m">mimicry</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="cont&#233;m">naturalist</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="cont&#233;m">navigation</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="cont&#233;m">survival</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">tracking</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Talent (Green Thumb)</name>
+			<type>Mental</type>
+			<levels>3</levels>
+			<points_per_level>5</points_per_level>
+			<reference>B90</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="cont&#233;m">biology</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">farming</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">gardening</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">herb lore</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="&#233;">naturalist</name>
+				<specialization compare="&#233; qualquer"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Naturalist</name>
+			<specialization>Earthlike</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Naturalist</name>
+			<specialization>Ice Worlds</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Naturalist</name>
+			<specialization>Hostile Terrestrial</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Naturalist</name>
+			<specialization>Rock Worlds</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Science &amp; Technology</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>4</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Jungle</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Mountain</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Arctic</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swamplands</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Starfleet Training</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Bank</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Deep Ocean Vent</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Fresh-Water Lake</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Open Ocean</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Reef</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>River/Stream</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Tropical Lagoon</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Biology</name>
+			<specialization>Earthlike</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>2</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Natural Science</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Biology</name>
+			<specialization>Biochemistry</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Natural Science</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Biology</name>
+			<specialization>Botany</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Natural Science</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Biology</name>
+			<specialization>Zoology</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Natural Science</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Camouflage</name>
+			<difficulty>IQ/E</difficulty>
+			<points>4</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Military</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Navigation</name>
+			<specialization>Land</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+				<category>Technical</category>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Cartography</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Surveying</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Air</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Sea</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>4</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fishing</name>
+			<difficulty>Per/E</difficulty>
+			<points>1</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Mimicry</name>
+			<specialization>Animal Sounds</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B210</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Arts/Entertainment</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mimicry</name>
+				<specialization>Bird Calls</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Federa&#231;&#227;o</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Federa&#231;&#227;o</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Chemistry</name>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Natural Science</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Alchemy</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Computer Operation</name>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B184</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Scholarly</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hazardous Materials</name>
+			<specialization>Biological</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B199</reference>
+			<categories>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Operation</name>
+			<specialization>Scientific</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B189</reference>
+			<categories>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<specialization>Scientific</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Electronics Operation</name>
+			<specialization>Sensors</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B189</reference>
+			<categories>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Repair</name>
+				<specialization>Sensors</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Electronics</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Electronics Operation</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Expert Skill</name>
+			<specialization>Xenology</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B193</reference>
+			<categories>
+				<category>Knowledge</category>
+				<category>Scholarly</category>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Research</name>
+			<tech_level>11</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Scholarly</category>
+				<category>Spy</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="yes">
+					<when_tl compare="at_least">8</when_tl>
+					<skill_prereq has="yes">
+						<name compare="&#233;">Computer Operation</name>
+						<specialization compare="&#233; qualquer"></specialization>
+					</skill_prereq>
+				</prereq_list>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="come&#231;a com">Language</name>
+						<notes compare="cont&#233;m">Written (Native</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="come&#231;a com">Language</name>
+						<notes compare="cont&#233;m">Written (Accented)</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="come&#231;a com">Language</name>
+						<notes compare="cont&#233;m">Written (Broken)</notes>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Writing</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Beam Weapons</name>
+			<specialization>Pistol</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B179</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Swimming</name>
+			<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
+			<difficulty>HT/E</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Piloting</name>
+			<specialization>Aerospace</specialization>
+			<tech_level>11</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B214</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Piloting</name>
+				<specialization>High-Performance Airplane</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Piloting</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<print_settings printer="Xerox-Xerox-Phaser-6180MFP-N" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Color</ink_chromaticity>
+		<sides>Single</sides>
+		<number_up>1</number_up>
+		<quality>Normal</quality>
+	</print_settings>
+</character>

@@ -1,0 +1,356 @@
+/* HTML Reset */
+
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,dl, dt, dd, ol, ul, li,table, caption, tbody, tfoot, thead, tr, th, td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML Reset END */
+
+@font-face
+{
+font-family: "Swiss911 UCm BT";
+src: url(tt0106m0.TTF);
+}
+
+body {
+	font-family: "Swiss911 UCm BT",Impact, Charcoal, sans-serif;
+	background: #000;
+	color: #ff9900;
+	background-image:url(data:image/gif;base64,R0lGODdhVwABAIABAJmZ/////ywAAAAAVwABAAACCISPqcvtD1sBADs=);
+	background-repeat:repeat-y;
+}
+h1{
+	float: right;
+	font-size:400%;
+	margin:.2em; 
+	background: #000;
+}
+	
+table#biopic{
+	font-size:150%;
+	border: 0 solid black;
+	border-width: 0 0 0 2em;
+	clear: right;
+}
+
+table#biopic tr td{
+	padding-left: 2em;
+}
+
+img#photo
+{
+	float:right;
+	margin: 3%;
+}
+
+table#basicattr,table#secondattr {
+	float: left;
+	margin: 3% 1% 3% 3%;
+	font-size:200%;
+}
+
+table#basicattr tr td,table#secondattr tr td
+{
+	padding:0.3em;
+	width:2em;
+}
+
+table#basicattr tr td.attr { background:#f90; color: #000;}
+
+table#basicattr tr td.attrvalue:after,table#secondattr tr td.attrvalue:after
+{
+	padding:0.2em;
+	content:"--";
+	background: #f90;
+	color: #f90;
+moz-border-radius:  0px 30px 30px 0px;
+border-radius: 0px 30px 30px 0px;
+}
+
+table#basicattr tr td.attrvalue,table#secondattr tr td.attrvalue
+{
+font-size:120%;
+width:1.7em;
+text-align:right;
+}
+
+table#secondattr tr td.attr { background:#fc9; color: #000;}
+table#secondattr tr td.attrvalue { background: #000; color: #fc9;}
+table#secondattr tr td.attrvalue:after { background: #fc9; color: #fc9;}
+
+
+table#basicattr tr td.dx { background:#c66; color: #000;}
+table#basicattr tr td.dxvalue { background: #000; color: #c66;}
+table#basicattr tr td.dxvalue:after { background: #c66; color: #c66;}
+
+table#basicattr tr td.iq { background:#c66; color: #000;}
+table#basicattr tr td.iqvalue { background: #000; color: #c66;}
+table#basicattr tr td.iqvalue:after { background: #c66; color: #c66;}
+
+table#secondattr tr td.will { background:#99f; color: #000;}
+table#secondattr tr td.willvalue { background: #000; color: #99f;}
+table#secondattr tr td.willvalue:after { background: #99f; color: #99f;}
+
+table#secondattr tr td.per { background:#99f; color: #000;}
+table#secondattr tr td.pervalue { background: #000; color: #99f;}
+table#secondattr tr td.pervalue:after { background: #99f; color: #99f;}
+
+table#secondattr tr td.dodge { background:#c9c; color: #000;}
+table#secondattr tr td.dodgevalue { background: #000; color: #c9c;}
+table#secondattr tr td.dodgevalue:after { background: #c9c; color: #c9c;}
+
+
+table#basicattr tr,table#secondattr tr,table#skillslist1 tr,table#skillslist2 tr, p#advdisadv
+{
+	border: 0.2em solid #000;
+}
+
+table#hitpoints{
+	float:left; 
+	margin:3%;
+	font-size:155%;
+	text-align:center;
+	color:#c66;
+}
+
+table#hitpoints tr:nth-child(1){height:35px;}
+table#hitpoints tr:nth-child(2){color:#99f}
+table#hitpoints tr:nth-child(3){color:#c9c}
+table#hitpoints tr:nth-child(4){color:#f96}
+
+table#hitpoints tr td#dial1{
+	background:url(lcarsdial.png); 
+	width:100px;
+	max-height: 280px;
+	min-height: 280px;
+}
+
+table#hitpoints tr td#dial2{
+	background:url(lcarsdial.png); 
+	background-position:right top;
+	width:100px;
+}
+p#advdisadv
+{
+	min-height: 2em;
+}
+table#skillslist1, table#skillslist2, p#advdisadv
+{
+	font-size:180%;
+	margin: 1em 0.2em 0.2em 1em;
+	background: #000;
+}
+/* para aumentar a legibilidade descomente esse estilo *
+table#skillslist1, table#skillslist2, p#advdisadv
+{
+ font-family: Liberation Sans Narrow, Nimbus Sans L;
+ font-weight: Bold;
+ font-stretch: Condensed;
+	font-size:140%;
+	margin: 1em 0.2em 0.2em 1em;	
+	font-size:150%;
+	background: #000;
+}
+/* */
+p#advdisadv
+{
+	clear:both;
+	width:97%;
+}
+
+table#skillslist1,
+table#skillslist2
+{
+	float: left;
+	clear:none;
+	width:30%;
+}
+
+table#skillslist1 tr td.skilllevel,
+table#skillslist2 tr td.skilllevel
+{
+	width:1em;
+	text-align:center;
+	background:#000; 
+	color: #fc9;
+}
+table#skillslist1 tr td.skill,
+table#skillslist2 tr td.skill
+{
+padding: 0.1em 0 0.1em 1em;
+color: #000;
+}
+
+table#skillslist1 tr td.skillcap,
+table#skillslist2 tr td.skillcap
+{
+	width:0.6em;
+}
+
+table#skillslist1 tr:nth-child(3n){ background:#f90;}
+table#skillslist1 tr:nth-child(3n+1){ background:#f96;}
+table#skillslist1 tr:nth-child(3n+2){ background:#fc9;}
+table#skillslist1 tr:nth-child(4n){ background:#c9c;}
+table#skillslist1 tr:nth-child(4n+1){ background:#c66;}
+table#skillslist1 tr:nth-child(5n){ background:#99c;}
+
+table#skillslist2 tr:nth-child(3n){ background:#f96;}
+table#skillslist2 tr:nth-child(3n+1){ background:#f90;}
+table#skillslist2 tr:nth-child(3n+2){ background:#99c;}
+table#skillslist2 tr:nth-child(4n){ background:#fc9;}
+table#skillslist2 tr:nth-child(4n+1){ background:#c9c;}
+table#skillslist2 tr:nth-child(5n){ background:#c66;}
+
+.line-middle{
+	width:100%;
+	height:50px;
+	margin:0;
+	background-color:#f90;
+	float:left;
+}
+.line-middle .top{
+	height:25px;
+	width:100%;
+	margin:0;
+	background-color: #99f;
+	background-image: url(Line.png);
+	background-repeat: no-repeat;
+	background-position:0 0;
+}
+.line-middle .bottom{
+	height:25px;
+	width:100%;
+	margin:0;
+	background-color: #c66;
+	background-image: url(Line.png);
+	background-repeat: no-repeat;
+	background-position:0 -31px;
+}
+
+.side-panel{
+	color:black;
+	width:87px;
+	background:transparent;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	float:left;
+}
+
+.side-panel li{
+	border: 0 solid black;
+	text-align: right;
+	font-size:150%;
+}
+
+.side-panel li.sideadvdisadv{
+	border-bottom-width: 0.2em;
+	background-color: #c9c;
+	padding: 3.5em 0em 0.5em 0em;
+}
+
+.side-panel li.att{
+	border-bottom-width: 0.2em;
+	background-color: #c66;
+	padding: 15.5em 0em 0.5em 0em;
+}
+
+.side-panel li.sideskills{
+	border-bottom-width: 0.2em;
+	background-color: #f90;
+	padding: 14em 0em 0.5em 0em;
+}
+
+.side-panel li.bio{
+	background-color: #99f;
+	padding: 5.5em 0em 0.5em 0em;
+}
+
+@media screen and (max-width: 1400px) {
+	table#hitpoints tr td#dial2,
+	table#hitpoints tr td:nth-child(3)
+	 {
+		display:none;
+	  }
+	table#hitpoints tr td#dial1{
+		background:url(lcarsdial.png); 
+		width:70px;
+	}
+	table#skillslist1,table#skillslist2
+	{
+	margin: 0em -0.5em 0em 1em;
+	}
+}
+
+@media screen and (max-width: 1155px) {
+	table#hitpoints tr td:nth-child(2)
+	 {
+		display:none;
+	  }
+	table#hitpoints tr td#dial1{
+		background:url(lcarsdial.png); 
+		width:62px;
+		display:table-cell;
+	}
+	table#basicattr,table#secondattr, 
+	table#hitpoints,
+	img#photo{
+		margin:1%;
+	}
+
+}
+
+@media screen and (max-width: 920px) {
+	.side-panel,
+	table#biopic tr td:nth-child(3)
+	,table#hitpoints 
+	 {
+		display:none;
+	  }
+	h1,
+	table#hitpoints 
+	{
+		border: 0.1em solid black;
+	}
+	table#biopic{
+		border-width: 0 0 0 0;
+		margin: 0 0 0 2em;	
+	}
+	
+img#photo
+ {
+	float:left;
+	clear:none;
+	border: 0.4em solid black;
+ }
+	table#skillslist1,table#skillslist2
+ {
+	float: none;
+	clear: both;
+	width:97%;
+	margin: -0.2em 0.2em 0em 1em;
+ }
+}
+
+@media screen and (max-width: 440px) {
+h1, #basicattr tr td.attrvalue:after,table#secondattr tr td.attrvalue:after
+	,table#biopic tr td:nth-child(2)
+  {
+		display:none;
+  }
+}
